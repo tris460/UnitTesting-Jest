@@ -14,3 +14,7 @@ test('El array contiene: melon',()=>{
 test('N1 es mayor que N2',()=>{
     expect(n1).toBeGreaterThan(n2);
 })
+
+test('Es verdadero',()=>{
+    expect(true).toBeTruthy();
+})
