@@ -49,3 +49,9 @@ test('Probar async/await', async()=>{
     const string = await reverseString2('Hola Mundo');
     expect(string).toBe('odnuM aloH');
 })
+
+afterEach(()=> console.log('Depués de cada prueba'));
+afterAll(()=> console.log("Después de todas las pruebas"));
+
+beforeEach(()=> console.log("Antes de cada prueba"));
+beforeAll(()=> console.log("Antes de todas las pruebas"));
