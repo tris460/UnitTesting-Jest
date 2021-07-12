@@ -28,3 +28,19 @@ test('Probar un callback',()=>{
         expect(str).toBe('odnuM aloH');
     })
 })
+
+const reverseString2 = str => {
+    return new Promise((resolve,reject)=>{
+        if(!str){
+            reject(Error('Error'));
+        }
+        resolve(str.split("").reverse().join(""));
+    })
+}
+
+test('Probar una promesa',()=>{
+    return reverseString2("Hola Mundo")
+        .then(string=>{
+            expect(string).toBe('odnuM aloH');
+        })
+})
