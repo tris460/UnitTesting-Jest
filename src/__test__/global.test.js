@@ -50,8 +50,8 @@ test('Probar async/await', async()=>{
     expect(string).toBe('odnuM aloH');
 })
 
-afterEach(()=> console.log('Depués de cada prueba'));
-afterAll(()=> console.log("Después de todas las pruebas"));
+// afterEach(()=> console.log('Depués de cada prueba'));
+// afterAll(()=> console.log("Después de todas las pruebas"));
 
-beforeEach(()=> console.log("Antes de cada prueba"));
-beforeAll(()=> console.log("Antes de todas las pruebas"));
+// beforeEach(()=> console.log("Antes de cada prueba"));
+// beforeAll(()=> console.log("Antes de todas las pruebas"));
