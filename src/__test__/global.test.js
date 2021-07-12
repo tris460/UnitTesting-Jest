@@ -18,3 +18,13 @@ test('N1 es mayor que N2',()=>{
 test('Es verdadero',()=>{
     expect(true).toBeTruthy();
 })
+
+const reverseString=(str, callback) => {
+    callback(str.split("").reverse().join(""))
+}
+
+test('Probar un callback',()=>{
+    reverseString('Hola Mundo', (str)=> {
+        expect(str).toBe('odnuM aloH');
+    })
+})
