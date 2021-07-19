@@ -59,6 +59,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "jest": "^24.9.0",
+    "jest-fetch-mock": "^3.0.3",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.14.0",
     "webpack-dev-server": "^3.11.2"
